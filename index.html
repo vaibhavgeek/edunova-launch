@@ -14,8 +14,6 @@ body{
   font-family: sans-serif;
   font-weight: 100;
   
-background: #466368;
-  background: linear-gradient(to right, #76f2cf,#f2f9f7, #f4f0bc);
 
 }
 
@@ -28,7 +26,7 @@ h1,h6{
 
 #clockdiv{
 	font-family: sans-serif;
-	color: #fff;
+	color:  rgb(0, 53, 107);;
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
@@ -39,7 +37,7 @@ h1,h6{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+	background:  rgb(0, 53, 107);
 	display: inline-block;
 	margin-top:30px;
 }
@@ -62,12 +60,12 @@ h1,h6{
 <div id="clockdiv">
 <div class="row" style="background:rgba(210,244,241,0.5);border-radius:10px;border-left:5px solid #00BF96;border-right:5px solid #00BF96;">
 	<div class="col-md-3">
-		<img src="edunova.png" width="180px">
+		<h1> ChaturBots </h1>
 	</div>
 
 	<div class="col-md-9">
-	<h1><b>edunova.io</b></h1>
-		<h6>&nbsp&nbsp&nbsp launching in ....</h6>
+	<h1><b>launching in ..</b></h1>
+		
 	</div>
 </div><br>
   <div>
@@ -129,7 +127,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("December 9, 2017 24:00:00");
+var deadline = new Date("December 8, 2017 24:00:00");
 initializeClock('clockdiv', deadline);
 </script>
 	
